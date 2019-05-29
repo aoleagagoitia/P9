@@ -21,10 +21,10 @@ CREATE TABLE categorias(
 	CONSTRAINT pk_categorias PRIMARY KEY(id)
 )ENGINE=InnoDb DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci;
 
-INSERT INTO categorias VALUES(null, 'Manga corta');
-INSERT INTO categorias VALUES(null, 'Tirantes');
-INSERT INTO categorias VALUES(null, 'Manga larga');
-INSERT INTO categorias VALUES(null, 'Sudaderas');
+INSERT INTO categorias VALUES(null, 'MAZDA');
+INSERT INTO categorias VALUES(null, 'TOYOTA');
+INSERT INTO categorias VALUES(null, 'HONDA');
+INSERT INTO categorias VALUES(null, 'NISSAN');
 
 CREATE TABLE productos(
 	id int(255) auto_increment not null,
