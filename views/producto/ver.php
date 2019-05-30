@@ -219,7 +219,7 @@
         if (isset($_SESSION['identity']) && $_SESSION['identity']->rol != "admin") {
             ?>
             <div class="container">
-                <div class="row" style="margin-top:40px;">
+                <div class="row" style="margin-top:70px;">
                     <div class="col-md-6">
                         <div class="well well-sm">
                             <div class="text-right">
